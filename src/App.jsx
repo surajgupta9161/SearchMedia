@@ -3,6 +3,7 @@ import { fetchPhotos } from './api/MediaApi'
 import { fetchVideos } from './api/MediaApi'
 import { fetchGif } from './api/MediaApi'
 import Searchbar from './components/Searchbar'
+import Tabs from './components/Tabs'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
 
     <div className='h-screen w-full bg-gray-900 '>
       <Searchbar />
+      <Tabs />
     </div>
   )
 }
