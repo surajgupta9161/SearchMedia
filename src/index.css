@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+#bottom {
+    background: linear-gradient(transparent, black);
+}
+
+@media (max-width: 440px) {
+    .search-bar {
+        padding: 10px 8px 2px 4px;
+    }
+
+    .input-box {
+        height: 45px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        padding: 2px 8px 2px 8px;
+        height: 45px;
+
+    }
+}
