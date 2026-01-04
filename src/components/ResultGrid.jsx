@@ -1,6 +1,6 @@
 
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchPhotos, fetchVideos, fetchGIF } from '../api/mediaApi'
+import { fetchPhotos, fetchVideos, fetchGIF } from '../api/MediaApi'
 import { setLoading, setError, setResult } from '../redux/feauters/searchSlice'
 import { useEffect } from 'react'
 import ResultCard from './ResultCard'
