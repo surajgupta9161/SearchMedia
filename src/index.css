@@ -4,6 +4,13 @@
     background: linear-gradient(transparent, black);
 }
 
+:root {
+    --c1: rgb(27, 60, 83);
+    --c2: rgb(35, 76, 106);
+    --c3: rgb(69, 104, 130);
+    --c4: rgb(227, 227, 227);
+}
+
 @media (max-width: 440px) {
     .search-bar {
         padding: 10px 8px 2px 4px;
@@ -19,5 +26,21 @@
         padding: 2px 8px 2px 8px;
         height: 45px;
 
+    }
+
+    .search-container {
+        padding: 10px 8px;
+    }
+
+    .search-box {
+        font-size: 22px;
+    }
+
+    .search-btn {
+        gap: 8px;
+    }
+
+    .search-collection {
+        padding: 4px 6px
     }
 }
