@@ -1,17 +1,17 @@
 /* eslint-disable react/prop-types */
 
-// import { useDispatch } from 'react-redux'
-// import { addCollection, addedToast } from '../redux/features/collectionSlice'
+import { useDispatch } from 'react-redux'
+import { addCollection, addedToast } from '../redux/feauters/collectionSlice'
 
 const ResultCard = ({ item }) => {
 
-    // const dispatch = useDispatch()
+    const dispatch = useDispatch()
 
-    // const addToCollection = (item) => {
-    //     dispatch(addCollection(item))
-    //     dispatch(addedToast())
+    const addToCollection = (item) => {
+        dispatch(addCollection(item))
+        dispatch(addedToast())
 
-    // }
+    }
 
     return (
         <div className='w-70 shrink-0 card-box relative h-80 bg-white rounded-xl overflow-hidden'>

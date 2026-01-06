@@ -1,11 +1,9 @@
-import React from 'react'
-import Searchbar from './components/Searchbar'
-import Tabs from './components/Tabs'
-import ResultGrid from './components/ResultGrid'
+
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home'
 import Collections from './components/pages/Collections'
 import Navbar from './components/Navbar'
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
@@ -16,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collections />} />
       </Routes>
+      <ToastContainer />
 
     </div>
   )
