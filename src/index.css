@@ -43,4 +43,12 @@
     .search-collection {
         padding: 4px 6px
     }
+
+    .collection {
+        font-size: 20px;
+    }
+
+    .clear-cl {
+        padding: 1px 3px;
+    }
 }
